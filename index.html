@@ -25,7 +25,7 @@
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/css/custom.css">
     <!-- Leaflet CSS - For the map-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.4.0/leaflet.css"> -->
     <!-- Favicon-->
     <!-- <link rel="shortcut icon" href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/favicon.png"> -->
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -43,9 +43,9 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
               <li class="nav-item"><a href="#about" class="nav-link link-scroll">About Me</a></li>
+              <li class="nav-item"><a href="#education" class="nav-link link-scroll">Education</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link link-scroll">My Skills</a></li>
               <li class="nav-item"><a href="#projects" class="nav-link link-scroll">Projects</a></li>
-              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">My Skills</a></li>
-              <li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Projects</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact Me</a></li>
             </ul>
           </div>
@@ -61,7 +61,7 @@
       </div>
     </section>
     <!-- About-->
-    <section id="about" class="about-section">
+    <section id="about" class="about-section" style="margin-bottom: 0%">
       <div class="container">
         <header class="text-center">
           <h2 data-animate="fadeInDown" class="title">About me</h2>
@@ -80,284 +80,180 @@
           </div>
           <div data-animate="fadeInUp" class="col-lg-6" style="width: 280px;height: 720px;">
             <div data-animate="fadeInDown" class="col-sm-6 mx-auto mt-5"><img style="margin-top:0%;height: 500px;width: 350px;"src="images/about.jpg"></div>
-
-           <!--<div class="skill-item">
-              <div class="progress-title">C</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">Javascript</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill2"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">HTML coding</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill3"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">C++</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill4"></div>
-              </div>
-            </div>
-            <div class="skill-item">
-              <div class="progress-title">Digital Marketing</div>
-              <div class="progress">
-                <div role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill5"></div>
-              </div>
-            </div> -->
           </div>
           
         </div>
       </div>
     </section>
 
-    <!-- Platforms-->
-    <section id="projects"  style="background-color: #C5C4C2">
-      <div class="container">
-        <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title">My Projects</h2>
-        </header>
-        <div class="row projects text-center">
-
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h1>Snake Game</h1>
-                  <img src="images/snake.png" style="width: 298px;height: 205px">  
-                </div>
-                <div class="flip-card-back">
-                  <p><font style="font-size: 20px;">
-                    <b>Description:</b>
-                    <ul>
-                      <li style="text-align: justify;">I made a basic snake game using C++ language.<br>
-                          This game runs on terminal and not on phone as it does not have high visual graphics.
-                      </li><br>
-                      <li style="text-align: justify;">Go check it at:<br>www.github.com/nitin-1926</li>
-                    </ul></font>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-fronts">
-                  <img src="images/searchengine.jpg" style="width: 298px;height: 205px">
-                  <h1>Search Engine</h1>
-                </div>
-                <div class="flip-card-back">
-                  <p><font style="font-size: 20px;">
-                    <b>Description:</b>
-                    <ul>
-                      <li style="text-align: justify;">I made a basic search engine using C language.<br>
-                          It have 3 parts :- Crawler, Indexer and Query Engine. It is a little bit hardcoded.
-                      </li><br>
-                      <li style="text-align: justify;">Go check it at:<br>www.github.com/nitin-1926</li>
-                    </ul></font>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <h1>CQ<br>Clone</h1>
-                  <img src="images/cq.jpg" style="width: 298px;height: 205px">  
-                </div>
-                <div class="flip-card-back">
-                  <p><font style="font-size: 20px;">
-                    <b>Description:</b>
-                    <ul>
-                      <li style="text-align: justify;">I created a clone of the code quotient website using Html, CSS & Bootstrap
-                        in Frontend, JavaScript, Node.js and Express in backend, MongoDB as a Database.
-                      </li><br>
-                      <li style="text-align: justify;">Go check it at:<br>www.github.com/nitin-1926</li>
-                    </ul></font>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row projects text-center" style="margin-top: 8%;">
-
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-fronts">
-                  <img src="images/AI.jpg" style="width: 298px;height: 205px">
-                  <h1>AI Laboratory</h1>
-                </div>
-                <div class="flip-card-back">
-                  <p><font style="font-size: 20px;">
-                    <b>Description:</b>
-                    <ul>
-                      <li style="text-align: justify;">I made a webpage for Artificial Intelligence Laboratory
-                        of Chitkara University.
-                          It is made using Html, CSS and Bootstrap.
-                      </li><br>
-                      <li style="text-align: justify;">Go check it at:<br>www.curin.chitkara.edu.in/<br>labs/ai-laboratory</li>
-                    </ul></font>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <font style="font-size: 52px;"><b>Liquid Crystal Lab</b></font>
-                  <img src="images/LC.jpg" style="width: 298px;height: 192px">  
-                </div>
-                <div class="flip-card-back">
-                  <p><font style="font-size: 20px;">
-                    <b>Description:</b>
-                    <ul>
-                      <li style="text-align: justify;">I created a clone of the code quotient website using Html, CSS & Bootstrap
-                        in Frontend, JavaScript, Node.js and Express in backend, MongoDB as a Database.
-                      </li><br>
-                      <li style="text-align: justify;">Go check it at:<br>www.github.com/nitin-1926</li>
-                    </ul></font>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="flip-card">
-              <div class="flip-card-inner">
-                <div class="flip-card-fronts">
-                  Snake Game6.
-                </div>
-                <div class="flip-card-back">
-                  Hello this is back.
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <hr data-animate="fadeInUp">
-        <div data-animate="fadeInUp" class="text-center">
-          <p class="lead">Would you like to know more or just discuss something?</p>
-          <p><a href="#contact" class="btn btn-outline-light link-scroll">Contact me</a></p>
-        </div>
-      </div>
-    </section>
-    <!-- Testimonials-->
-    <section id="testimonials" class="testimonials-section bg-gray">
+    <!-- Education-->
+    <section id="education" class="skills-section bg-gray">
       <div class="container">
         <header class="text-center mb-2">
-          <h2 data-animate="fadeInUp" class="title">My customers said<br><span>about me</span></h2>
-          <p data-animate="fadeInUp" class="lead">I am always glad to hear that my customers leave satisfied. Some of them shared with you their insights on our cooperation.</p>
+          <h2 data-animate="bounceIn" class="title">My Education</h2>
+          <center>
+            <font style="font-size: 20px;">
+              <div data-animate="fadeInUp">
+              <h3>Graduation (2017-2021)</h3>
+              <strong>College:&nbsp&nbsp</strong>Chitkara University, Rajpura, Punjab.<br>
+              <strong>Score:&nbsp&nbsp</strong>9.66 CGPA.<br>
+              </div><br>
+
+              <div data-animate="fadeInUp">
+              <h3>Secondary Education (2015-2017)</h3>
+              <strong>School:&nbsp&nbsp</strong>D.C. Montessori Sr. Sec. School, Panchkula.<br>
+              <strong>Score:&nbsp&nbsp</strong>84.6%.<br>
+              </div><br>
+
+              <div data-animate="fadeInUp">
+              <h3>Primary Education (2003-2015)</h3>
+              <strong>School:&nbsp&nbsp</strong>Kundan Vidya Mandir Sr. Sec. School, Ludhiana, Punjab.<br>
+              <strong>Score:&nbsp&nbsp</strong>10 CGPA.<br>
+              </div><br>
+
+            </font>
+          </center>
         </header>
-        <ul data-animate="fadeInUp" class="owl-carousel owl-theme testimonials equalize-height">
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture"><img alt="" src="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/person-1.jpg">
-                  <h5>John McIntyre</h5>
-                  <p>CEO, TransTech</p>
+      </div>
+    </section>
+<!-- Skills -->
+
+    <section id="skills">
+      <div class="container">
+        <center><h2 data-animate="bounceIn" class="title">My Own Judgement<br>Of<br> My Skills</h2></center>
+        <div class="row">
+        <div class="col-sm-6" data-animate="fadeInUp"> 
+
+          <div class="skill-item"> 
+              <div class="progress-title">C</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">70%</div>
                 </div>
               </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What is happened to me? &quot; he thought. It was not a dream.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture"><img alt="" src="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/person-2.jpg">
-                  <h5>John McIntyre</h5>
-                  <p>CEO, TransTech</p>
+
+            <div class="skill-item"> 
+              <div class="progress-title">C++</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">60%</div>
                 </div>
               </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table - Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture"><img alt="" src="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/person-3.jpg">
-                  <h5>John McIntyre</h5>
-                  <p>CEO, TransTech</p>
+
+            <div class="skill-item"> 
+              <div class="progress-title">Python</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">50%</div>
                 </div>
               </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture"><img alt="" src="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/person-4.jpg">
-                  <h5>John McIntyre</h5>
-                  <p>CEO, TransTech</p>
+
+            <div class="skill-item"> 
+              <div class="progress-title">Linux</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">70%</div>
                 </div>
               </div>
             </div>
-          </li>
-          <li class="item">
-            <div class="testimonial full-height">
-              <div class="text">
-                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad. Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
-              </div>
-              <div class="bottom">
-                <div class="icon"><i class="fa fa-quote-left"></i></div>
-                <div class="name-picture"><img alt="" src="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/person-4.jpg">
-                  <h5>John McIntyre</h5>
-                  <p>CEO, TransTech</p>
+
+            <div class="skill-item"> 
+              <div class="progress-title">Firebase</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">85%</div>
                 </div>
               </div>
             </div>
-          </li>
-        </ul>
+
+            <div class="skill-item"> 
+              <div class="progress-title">Digital Marketting</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">90%</div>
+                </div>
+              </div>
+            </div> 
+
+        </div>
+
+         <div class="col-sm-6" data-animate="fadeInDown">
+
+          <div class="skill-item"> 
+              <div class="progress-title">Html</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">90%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item"> 
+              <div class="progress-title">CSS</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">70%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item"> 
+              <div class="progress-title">Bootstrap</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">60%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item"> 
+              <div class="progress-title">JavaScript</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">80%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item"> 
+              <div class="progress-title">MongoDB</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">75%</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill-item"> 
+              <div class="progress-title">My SQL</div>
+              <div class="progress" style="height: 30px;">
+                <div class="progress-bar  progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%; background-color: lightgreen">
+                 <div style="margin-top: 1%;">40%</div>
+                </div>
+              </div>
+            </div>
+
+         </div>
+       </div>
       </div>
     </section>
 
 <!--  -->
-    <section id="references">
+     <section id="projects">
       <div class="container">
         <div class="col-sm-12">
           <div class="mb-5 text-center">
-            <h2 data-animate="fadeInUp" class="title">My work</h2>
-            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+            <h2 data-animate="fadeInUp" class="title">My Projects</h2>
+            <p data-animate="fadeInUp" class="lead">Here are some of my projects that I have made.</p>
           </div>
           <ul id="filter" data-animate="fadeInUp">
             <li class="active"><a href="#" data-filter="all">All</a></li>
             <li><a href="#" data-filter="webdesign">Webdesign</a></li>
-            <li><a href="#" data-filter="seo">SEO</a></li>
-            <li><a href="#" data-filter="marketing">Marketing</a></li>
-            <li><a href="#" data-filter="other">Other</a></li>
+            <li><a href="#" data-filter="seo">Coding</a></li>
+            <li><a href="#" data-filter="other">Others</a></li>
           </ul>
           <div id="detail">
             <div class="row">
@@ -370,7 +266,7 @@
               </div>
             </div>
           </div>
-          <!-- Reference detail-->
+           Reference detail
           <div id="references-masonry" data-animate="fadeInUp">
             <div class="row">
                   <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
@@ -497,34 +393,8 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- Customers-->
-    <section id="customers" class="customers-section bg-gray">
-      <div class="container">
-        <div class="col-md-12">
-          <div class="row align-items-center">
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="customer"><img src="img/customers/logo-1.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="customer"><img src="img/customers/logo-2.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="customer"><img src="img/customers/logo-3.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="customer"><img src="img/customers/logo-4.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="customer"><img src="img/customers/logo-5.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
-            </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
-              <div class="customer"><img src="img/customers/logo-6.svg" title="brand logo" data-placement="bottom" data-toggle="tooltip" alt="" class="img-fluid d-block mx-auto"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </section> --> --> -->
+
     <!-- Contact-->
     <section id="contact" data-animate="bounceIn" class="contact-section contact">
       <div class="container">
@@ -562,16 +432,49 @@
         </div>
       </div>
     </section>
-    <!-- Map-->
-    <div id="map"></div>
+
     <footer class="main-footer">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 text-center text-lg-left">
-            <p class="social"><a href="#" class="external facebook wow fadeInUp"><i class="fa fa-facebook"></i></a><a href="#" data-wow-delay="0.2s" class="external instagram wow fadeInUp"><i class="fa fa-instagram"></i></a><a href="#" data-wow-delay="0.4s" class="external gplus wow fadeInUp"><i class="fa fa-google-plus"></i></a><a href="#" data-wow-delay="0.6s" class="email wow fadeInUp"><i class="fa fa-envelope"></i></a></p>
+
+          <div class="col-md-4">
+            <h5 style="color: white;">Follow me on:<br></h5>
+            <ul class="list-inline social-buttons">
+
+              <li class="list-inline-item">
+                <a href="https://twitter.com/curious_curin">
+                  <i class="fa fa-github fa-2x">&nbsp</i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://twitter.com/curious_curin">
+                  <i class="fa fa-instagram fa-2x">&nbsp</i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://twitter.com/curious_curin">
+                  <i class="fa fa-twitter fa-2x">&nbsp</i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/chitkara.edu.in/">
+                  <i class="fa fa-facebook fa-2x">&nbsp</i>
+                </a>
+              </li>
+
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/curin-chitkatra-553685150/detail/recent-activity/">
+                  <i class="fa fa-linkedin fa-2x">&nbsp</i>
+                </a>
+              </li>
+
+            </ul>
           </div>
           <!-- /.6-->
-          <div class="col-md-6 text-center text-lg-right mt-4 mt-lg-0">
+          <div class="col-md-8 text-center text-lg-right mt-4 mt-lg-0">
             <p>
               
                 House No.:      <font style="size: 10px;color: red;">963/9 Deep Nagar</font><br>
